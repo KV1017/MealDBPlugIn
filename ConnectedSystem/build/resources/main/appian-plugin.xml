@@ -1,0 +1,17 @@
+<appian-plugin name="MealDB Connected System" key="com.mycorp.apikey">
+  <plugin-info>
+    <description>MealDB Connected System to access meal data.</description>
+    <vendor name="Kaushik Vejju" url="https://kaushikvejju.netlify.app/"/>
+    <version>1.0.0.0</version>
+    <application-version min="7.6.0.4"/>
+  </plugin-info>
+
+  <connected-system-template key="FoodAPIKeyConnectedSystemTemplate" name="FoodAPIKeyConnectedSystemTemplate"
+                             class="com.mycorp.apikey.templates.FoodAPIKeyConnectedSystemTemplate">
+
+  <integration-template key="FoodSearchIntegrationTemplate" name="FoodSearchIntegrationTemplate"
+                            class="com.mycorp.apikey.templates.FoodSearchIntegrationTemplate"/>
+    <client-api key="" name="FoodSearchClientAPI"
+                class="com.mycorp.apikey.templates.FoodSearchClientAPI" />
+  </connected-system-template>
+</appian-plugin>

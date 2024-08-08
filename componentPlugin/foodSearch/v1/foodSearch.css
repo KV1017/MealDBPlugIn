@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(242, 242, 247);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+#container {
+    width: 60%;
+    border: 3px solid rgb(226, 226, 226);
+    border-radius: 5px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 1em;
+}
+
+#foodItem {
+    height: 2.5em;
+    width: 20em;
+    padding: 0.25em;
+
+}
+
+hr {
+    width: 70%;
+}
+#foodItemBtn {
+    background-color: rgb(76, 76, 195);
+    color: white;
+    padding: 1em;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 88%;
+}
+
+#foodItemBtn:hover {
+    background-color: rgb(28, 28, 111);
+}
+
+
+/* Food Detail Information */
+#food-information-div {
+    width: 80%;
+    border-radius: 5px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+#food-information-div h4 {
+    color:rgb(76, 76, 195);
+}
+
+#food-information-div p {
+    background-color: rgb(240, 240, 240);
+    border-radius: 5px;
+    padding: 1em;
+    text-align: left;
+}
+
+#food-information-div img {
+    height: 20em;
+    width: 20em;
+    text-align: center;
+}

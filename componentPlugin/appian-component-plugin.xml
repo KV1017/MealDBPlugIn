@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appian-component-plugin name="flashFoodSearch" key="com.mycorp.food.search">
+  <plugin-info>
+    <description>Detects text in user supplied images</description>
+    <vendor name="Appian" url="http://www.appian.com" />
+    <version>1.0</version>
+    <support supported="true" email="support@appian.com" url="https://community.appian.com"/>
+  </plugin-info>
+
+  <!-- Add a new component with every version you create -->
+  <!-- This v1.0.0 component maps to the v1 folder -->
+  <component rule-name="foodSearch" version="1.0.0">
+    <sdk-version>2.0.0</sdk-version>
+    <parameter>
+      <name>connectedSystem</name>
+      <description>connected system we are connecting to</description>
+      <category>input-only</category>
+      <type>ConnectedSystem</type>
+    </parameter>
+    <html-entry-point>index.html</html-entry-point>
+    <supported-user-agents>chrome firefox ie11 edge safari mobile</supported-user-agents>
+  </component>
+</appian-component-plugin>
